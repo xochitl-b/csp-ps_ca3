@@ -16,7 +16,7 @@ div {
 }
 
 .title {
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .editable {
@@ -40,7 +40,7 @@ div {
 }
 
 .card {
-  background: white;
+  background: rgb(244, 244, 244);
   border-bottom: 1px solid #aaa;
 }
 
@@ -52,13 +52,36 @@ div {
   background: #dfe1e6;
 }
 
+.PBacklog {
+  background: #91D3CF;
+}
+
+.SBacklog {
+  background: #f5ac2f;
+}
+
+.Progress {
+  background: #FF7F66;
+}
+
+.Review {
+  background: #FEF5E4;
+}
+
+.Done {
+  background: #b4de6d;
+}
 
 .add-list {
   min-width: 280px;
   margin: 10px 5px;
   position: relative;
-  background: rgba(90, 90, 90, 0.405);
-  color: rgb(255, 255, 255);
+  background: rgb(180, 180, 180);
+
+}
+
+.resource-item {
+  color: rgb(100, 100, 100);
 }
 
 .ghost {
@@ -72,7 +95,7 @@ div {
   display: inline-block;
   padding: 10px;
   margin-top: 0px;
-  color: gray;
+  color: rgb(74, 97, 113);
   text-decoration: none;
 /*   border-bottom: 1px solid #dfe1e6; */
 }
@@ -82,7 +105,7 @@ div {
 }
 
 .del {
-  font-weight: 600;
+  font-weight: 400;
   color: gray;
 }
 resource-item {
