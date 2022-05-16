@@ -42,6 +42,7 @@ div {
 .card {
   background: rgb(244, 244, 244);
   border-bottom: 1px solid #aaa;
+  text-align: center;
 }
 
 .list {
@@ -109,5 +110,8 @@ div {
   color: gray;
 }
 resource-item {
-  text-color: rgb(49, 49, 49);  
+  color: rgb(49, 49, 49);  
+}
+.fa{
+  margin: 2px;
 }
